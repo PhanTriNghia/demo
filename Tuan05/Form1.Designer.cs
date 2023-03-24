@@ -31,7 +31,6 @@ namespace Tuan05
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtNumber = new System.Windows.Forms.TextBox();
             this.btBinhPhuong = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btLapPhuong = new System.Windows.Forms.Button();
@@ -57,14 +56,6 @@ namespace Tuan05
             this.label2.Size = new System.Drawing.Size(33, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Số: ";
-            // 
-            // txtNumber
-            // 
-            this.txtNumber.Location = new System.Drawing.Point(230, 66);
-            this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(164, 22);
-            this.txtNumber.TabIndex = 2;
-            this.txtNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumber_KeyPress);
             // 
             // btBinhPhuong
             // 
@@ -125,6 +116,7 @@ namespace Tuan05
             this.txtkq.Name = "txtkq";
             this.txtkq.Size = new System.Drawing.Size(159, 22);
             this.txtkq.TabIndex = 9;
+            this.txtkq.TextChanged += new System.EventHandler(this.txtkq_TextChanged);
             // 
             // Form1
             // 
@@ -139,7 +131,6 @@ namespace Tuan05
             this.Controls.Add(this.btLapPhuong);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btBinhPhuong);
-            this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -153,7 +144,6 @@ namespace Tuan05
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtNumber;
         private System.Windows.Forms.Button btBinhPhuong;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btLapPhuong;

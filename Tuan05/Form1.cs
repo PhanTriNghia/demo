@@ -67,6 +67,11 @@ namespace Tuan05
             }
         }
 
+        private void txtkq_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         /*private void btBinhPhuong_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)

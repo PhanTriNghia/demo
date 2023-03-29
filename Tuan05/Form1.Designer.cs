@@ -44,9 +44,9 @@ namespace Tuan05
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(300, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 16);
+            this.label1.Size = new System.Drawing.Size(98, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nghĩa Ngu";
+            this.label1.Text = "Phan Trí Nghĩa";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
